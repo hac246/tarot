@@ -57,11 +57,10 @@ input{
     text-align: center;
     font-weight: bold;
 }
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  background-color: #45a1ff;
-  color: #fff;
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
 }
-
