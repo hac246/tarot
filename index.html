@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    background-image: url("img/tarrot.jpg");
+    background-color: #cccccc;
+}
+h1{
+    color: peru;
+    background-color: lightgrey;
+    opacity: 75%;
+  
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+label
+{
+    color: palegreen;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>TAROT</h1>
+     
+        
+       
+        <button  class ="button" onclick="rollDice()" data-text="Awesome">
+            <span class="actual-text">&nbsp;YOURFADE&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;YOURFADE&nbsp;</span>
+        </button>
+        
+  
+        <div id="diceResult"></div>
+        <div  class="item" id="diceImages"></div>
+
+    
+  
+    <script src="index.js"></script>
+    
+<footer>
+    <p>© 2024 hac246</p>
+  </footer>
+</body>
+</html>
